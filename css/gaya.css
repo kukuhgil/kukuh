@@ -1,17 +1,26 @@
-body {
-    -webkit-tap-highlight-color: transparent;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body, html {
+  -webkit-tap-highlight-color: transparent;
   height: 100%;
   background: linear-gradient(-45deg, #f1ca89, #f29191, #907fa4, #4aa96c);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: animasiBegron 15s ease infinite;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
 }
-@keyframes gradient {
+
+@keyframes animasiBegron {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -55,19 +64,29 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
-  display: none;
-  widows: 1300px;
-  height: 650px;
-  outline: none;
+.container{
+  padding: 20px;
+  height: 100%;
+}
+
+.newpage {
   text-align: center;
-  padding: 10px 30px 10px 30px;
-  border-radius: 10px;
-  background-color: #ADD8E6;
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
+  background-color: #f1ca89;
+  width: 100%;
+  height: 94%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.anakpage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+
 }
 
 h1{
@@ -96,4 +115,14 @@ h1{
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+
+.untukhari h1{
+  font-size: 30px;
+  font-family: Times New Roman;
+  color: #404040;
+}
+
+.untukhari .tanggalwaktu p{
+    font-size:60px;
 }
