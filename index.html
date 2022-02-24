@@ -4,17 +4,41 @@
 	<meta charset="utf-8">
 	<title>For U <3</title>
 		<link rel="stylesheet" href="css/gaya.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+		<style>
+		.container {
+    			display: none;
+		}
+		</style>
 </head>
 <body>
 	<div class="pembukaan" id="pembukaan">
 		<h1>Seni Seviyorum <3 </h1>
 			<button class="tombol" id="tombol">Baş Lütfen</button>
 	</div>
-
 	<div class="container" id="container">
 		<div class="newpage">
-			<h1 class="judul1">Heyyy Umarım Günlerin Çok İyi geçer!!</h1>
-		<br><br><br><br><br><br><br><br><br><br>
+			<div class="anakpage"></div>
+			<br><br>
+			<h1 class="judul1">Heyyy Feyza Aşar!!!</h1>
+		<br><br><br>
+				<div class="untukhari">
+					<h1><span id="tanggalwaktu"></span></h1>
+					<script>
+					var tw = new Date();
+			if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+			else (a=tw.getTime());
+			tw.setTime(a);
+			var tahun= tw.getFullYear ();
+			var hari= tw.getDay ();
+			var bulan= tw.getMonth ();
+			var tanggal= tw.getDate ();
+			var hariarray=new Array("Pazar,","Pazartesi,","Salı,","Çarsamba,","Perşembe,","Cuma,","Cumartesi");
+			var bulanarray=new Array("Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık");
+			document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" <p></p> " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes();
+</script>
+		</div>
+		<br><br>
     <div class="untukjam">
     	 <script type="text/javascript">
           document.write("<center>");
@@ -39,14 +63,14 @@
           }
           document.write("</center>");
         </script>
-    </div>  
+       
+    </div>
 		</div>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
     integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
-  <script src="js/script.js"></script>
   <script>
     $(document).ready(function () {
       var audio = new Audio('audio/audio.mp3');
