@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>For U <3</title>
+		<link rel="stylesheet" href="css/gaya.css">
+</head>
+<body>
+	<div class="pembukaan" id="pembukaan">
+		<h1>Seni Seviyorum <3 </h1>
+			<button class="tombol" id="tombol">Baş Lütfen</button>
+	</div>
+
+	<div class="container" id="container">
+		<div class="newpage">
+			<h1 class="judul1">Heyyy Umarım Günlerin Çok İyi geçer!!</h1>
+		<br><br><br><br><br><br><br><br><br><br>
+    <div class="untukjam">
+    	 <script type="text/javascript">
+          document.write("<center>");
+          var hari = new Date();
+          var jam = hari.getHours();
+          if (jam >= 0 && jam < 12) {
+            document.write(
+              "<h1>Günaydın Aşkım!!</h1><p>Uyandıktan sonra çok mutluyum çünkü günlerim seninle başlarım <3<p>"
+            );
+          } else if (jam == 12) {
+            document.write(
+              "<h1 >Tünaydın Aşkım!!</h1><p>Yemek Ye Unutma Ve Mutlu Ol Canım <3<p>"
+            );
+          } else if (jam >= 12 && jam <= 17) {
+            document.write(
+              "<h1>İyi Akşamlar Aşkım!!</h1><p>Hey Hey nasıl geçti bugün?<br> umarım hep iyi geçer sana ve sen bugün iyi yapmıştın zaten!! <br> Seni Seviyorum<3<p>"
+            );
+          } else {
+            document.write(
+              "<h1>İyi Geceler Aşkım!!</h1><p>bugün çok şeyler yapmıştın demi?o yüzden uyumalısın bol bol uyu<br>yarın daha iyi gelir sana ben dua ederim. <br><br> İyi Geceler Tatlı Rüyalar<br> Seni Seviyorum Aşkım <3<p>"
+            );
+          }
+          document.write("</center>");
+        </script>
+    </div>  
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+      var audio = new Audio('musik/audio.mp3');
+      $("#tombol").click(function () {
+        $("#pembukaan").fadeOut();
+        $("#container").fadeIn("4000");
+        audio.play();
+      });
+    });
+  </script>
+</body>
+</html>
