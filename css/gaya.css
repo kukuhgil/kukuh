@@ -126,3 +126,75 @@ h1{
 .untukhari .tanggalwaktu p{
     font-size:60px;
 }
+
+section .gambar {
+  border-radius: 10px;
+}
+
+section.halaman1 {
+  background: #ff96ad;
+  -webkit-transition-delay: 0s;
+}
+
+section.halaman2 {
+  background: #BCCFD7;
+  -webkit-transition-delay: 0.05s;
+}
+
+section.after {
+  -webkit-transform: translateY(100%);
+}
+
+.tombol_menu {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 54px;
+  cursor: pointer;
+  background: url(../gambar/menu.png) no-repeat center;
+  background-size: 44px;
+}
+
+.tombol_menu:active {
+  opacity: 0.2;
+}
+
+.page-halaman1 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.page-halaman1 section.halaman2 {
+  -webkit-transition-delay: 0.15s;
+}
+
+.page-halaman2 section.halaman2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.page-halaman2 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.buka_menu section {
+  cursor: pointer;
+}
+.buka_menu section.halaman1 {
+  -webkit-transform: translateY(70px);
+  -webkit-transition-delay: 0.15s;
+}
+
+
+.buka_menu section.halaman2 {
+  -webkit-transform: translateY(140px);
+  -webkit-transition-delay: 0.1s;
+}
+
+.buka_menu.page-halaman1 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.buka_menu.page-halaman1 section.halaman2 {
+  -webkit-transition-delay: 0.05s;
+}
