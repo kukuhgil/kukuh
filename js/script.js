@@ -13,5 +13,6 @@ function PindahKeHalaman(page) {
       sections[i].classList.add('after');
     }
   }
+  newpage.classList.remove('buka_menu', 'page-halaman1');
   newpage.classList.add('page-' + pages[page]);
 }
