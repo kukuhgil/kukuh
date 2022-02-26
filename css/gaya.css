@@ -128,20 +128,17 @@ h1{
 }
 
 section .gambar1 {
-  border-radius: 10px;
-}
-
-section .gambar2 {
+  width: 300px;
+  height: 200px;
   border-radius: 10px;
 }
 
 section .gambar3 {
   border-radius: 10px;
+  width: 300px;
+  height: 200px;
 }
 
-section .gambar4 {
-  border-radius: 10px;
-}
 
 section.halaman2 {
   background: #BCCFD7;
