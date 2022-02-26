@@ -161,17 +161,6 @@ section.after {
   opacity: 0.2;
 }
 
-.judul_halaman {
-  color: white;
-  font-weight: 500;
-  font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin: 0;
-  line-height: 70px;
-  -webkit-user-select: halaman1;
-}
-
 .judul {
   color: white;
   font-weight: 500;
@@ -180,7 +169,7 @@ section.after {
   text-align: center;
   margin: 0;
   line-height: 70px;
-  -webkit-user-select: halaman1;
+  -webkit-user-select: halaman3;
 }
 
 .page-halaman3 section.halaman3 {
