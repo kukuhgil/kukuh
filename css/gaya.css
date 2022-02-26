@@ -127,8 +127,25 @@ h1{
     font-size:60px;
 }
 
-section .gambar {
+section .gambar1 {
   border-radius: 10px;
+}
+
+section .gambar2 {
+  border-radius: 10px;
+}
+
+section .gambar3 {
+  border-radius: 10px;
+}
+
+section .gambar4 {
+  border-radius: 10px;
+}
+
+section.halaman2 {
+  background: #BCCFD7;
+  -webkit-transition-delay: 0.0s;
 }
 
 section.halaman3 {
@@ -161,6 +178,17 @@ section.after {
   opacity: 0.2;
 }
 
+.judul_halaman {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  line-height: 70px;
+  -webkit-user-select: halaman2;
+}
+
 .judul {
   color: white;
   font-weight: 500;
@@ -169,14 +197,14 @@ section.after {
   text-align: center;
   margin: 0;
   line-height: 70px;
-  -webkit-user-select: halaman3;
+  -webkit-user-select: halaman2;
 }
 
-.page-halaman3 section.halaman3 {
+.page-halaman2 section.halaman3 {
   -webkit-transition-delay: 0.1s;
 }
 
-.page-halaman3 section.halaman4 {
+.page-halaman2 section.halaman4 {
   -webkit-transition-delay: 0.05s;
 }
 
@@ -184,22 +212,32 @@ section.after {
   cursor: pointer;
 }
 
+.buka_menu section.halaman2 {
+  -webkit-transform: translateY(70px);
+  -webkit-transition-delay: 0.15s;
+}
+
+
 .buka_menu section.halaman3 {
-   -webkit-transform: translateY(70px);
-  -webkit-transition-delay: 0.05s;
+  -webkit-transform: translateY(140px);
+  -webkit-transition-delay: 0.1s;
 }
 
 
 .buka_menu section.halaman4 {
-  -webkit-transform: translateY(140px);
+  -webkit-transform: translateY(210px);
+  -webkit-transition-delay: 0.05s;
+}
+
+
+.buka_menu.page-halaman2 section.halaman2 {
   -webkit-transition-delay: 0s;
 }
 
-
-.buka_menu.page-halaman3 section.halaman3 {
+.buka_menu.page-halaman2 section.halaman3 {
   -webkit-transition-delay: 0.1s;
 }
 
-.buka_menu.page-halaman3 section.halaman4 {
+.buka_menu.page-halaman2 section.halaman4 {
   -webkit-transition-delay: 0.15s;
 }
