@@ -1,4 +1,4 @@
-var pages = new Array('halaman3', 'halaman4');
+var pages = new Array('halaman2', 'halaman3', 'halaman4');
 
 function klikMenu() {
   document.getElementsByClassName('newpage')[0].classList.toggle('buka_menu');
