@@ -19,6 +19,8 @@
 	<div class="container" id="container">
 		<div class="newpage">
 			<div class="anakpage"></div>
+			 <a class="tombol_menu" onclick="klikMenu()"></a>
+      <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
 			<br><br>
 			<h1 class="judul1">Heyyy Feyza Aşar!!!</h1>
 		<br><br><br>
@@ -46,7 +48,7 @@
           var jam = hari.getHours();
           if (jam >= 0 && jam < 12) {
             document.write(
-              "<h1>Günaydın Aşkım!!</h1><p>Uyandığım zaman çok mutluyum çünkü günlerim seninle başlarım <3<p>"
+              "<h1>Günaydın Aşkım!!</h1><p>Uyandıktan sonra çok mutluyum çünkü günlerim seninle başlarım <3<p>"
             );
           } else if (jam == 12) {
             document.write(
@@ -67,10 +69,13 @@
     </div>
 		</div>
 	</div>
+</section>
+   <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)"></section>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
     integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
   <script>
     $(document).ready(function () {
       var audio = new Audio('audio/audio.mp3');
