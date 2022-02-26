@@ -1,4 +1,4 @@
-var pages = new Array('halaman1', 'halaman2');
+var pages = new Array('halaman1', 'halaman2','halaman3', 'halaman4');
 
 function klikMenu() {
   document.getElementsByClassName('newpage')[0].classList.toggle('buka_menu');
@@ -13,6 +13,6 @@ function PindahKeHalaman(page) {
       sections[i].classList.add('after');
     }
   }
-  newpage.classList.remove('buka_menu', 'page-halaman1');
+  newpage.classList.remove('buka_menu', 'page-halaman1', 'page-halaman2');
   newpage.classList.add('page-' + pages[page]);
 }
