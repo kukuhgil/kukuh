@@ -184,7 +184,7 @@ section.after {
   -webkit-transition-delay: 0.05s;
 }
 
-.page-halaman2 section.halaman3 {
+.page-halaman2 section.halaman1 {
   -webkit-transition-delay: 0.1s;
 }
 
@@ -207,5 +207,13 @@ section.after {
 }
 
 .buka_menu.page-halaman1 section.halaman2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu.page-halaman2 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.buka_menu.page-halaman2 section.halaman2 {
   -webkit-transition-delay: 0.05s;
 }
