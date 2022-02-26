@@ -193,13 +193,13 @@ section.after {
 }
 
 .buka_menu section.halaman3 {
-  -webkit-transform: translateY(210px);
+   -webkit-transform: translateY(70px);
   -webkit-transition-delay: 0.05s;
 }
 
 
 .buka_menu section.halaman4 {
-  -webkit-transform: translateY(280px);
+  -webkit-transform: translateY(140px);
   -webkit-transition-delay: 0s;
 }
 
