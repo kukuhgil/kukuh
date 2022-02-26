@@ -131,14 +131,14 @@ section .gambar {
   border-radius: 10px;
 }
 
-section.halaman1 {
-  background: #ff96ad;
-  -webkit-transition-delay: 0s;
+section.halaman3 {
+  background: #D3B0AD;
+  -webkit-transition-delay: 0.1s;
 }
 
-section.halaman2 {
-  background: #BCCFD7;
-  -webkit-transition-delay: 0.05s;
+section.halaman4 {
+  background: #f1ca89;
+  -webkit-transition-delay: 0.15s;
 }
 
 section.after {
@@ -172,48 +172,50 @@ section.after {
   -webkit-user-select: halaman1;
 }
 
-.page-halaman1 section.halaman1 {
-  -webkit-transition-delay: 0s;
+.page-halaman1 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
 }
 
-.page-halaman1 section.halaman2 {
-  -webkit-transition-delay: 0.15s;
-}
-
-.page-halaman2 section.halaman2 {
+.page-halaman1 section.halaman4 {
   -webkit-transition-delay: 0.05s;
 }
 
-.page-halaman2 section.halaman1 {
+.page-halaman2 section.halaman3 {
   -webkit-transition-delay: 0.1s;
+}
+
+.page-halaman2 section.halaman4 {
+  -webkit-transition-delay: 0.05s;
 }
 
 .buka_menu section {
   cursor: pointer;
 }
-.buka_menu section.halaman1 {
-  -webkit-transform: translateY(70px);
-  -webkit-transition-delay: 0.15s;
+
+.buka_menu section.halaman3 {
+  -webkit-transform: translateY(210px);
+  -webkit-transition-delay: 0.05s;
 }
 
 
-.buka_menu section.halaman2 {
-  -webkit-transform: translateY(140px);
+.buka_menu section.halaman4 {
+  -webkit-transform: translateY(280px);
+  -webkit-transition-delay: 0s;
+}
+
+
+.buka_menu.page-halaman1 section.halaman3 {
   -webkit-transition-delay: 0.1s;
 }
 
-.buka_menu.page-halaman1 section.halaman1 {
-  -webkit-transition-delay: 0s;
+.buka_menu.page-halaman1 section.halaman4 {
+  -webkit-transition-delay: 0.15s;
 }
 
-.buka_menu.page-halaman1 section.halaman2 {
-  -webkit-transition-delay: 0.05s;
+.buka_menu.page-halaman2 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
 }
 
-.buka_menu.page-halaman2 section.halaman1 {
-  -webkit-transition-delay: 0s;
-}
-
-.buka_menu.page-halaman2 section.halaman2 {
-  -webkit-transition-delay: 0.05s;
+.buka_menu.page-halaman2 section.halaman4 {
+  -webkit-transition-delay: 0.15s;
 }
