@@ -13,32 +13,32 @@
 </head>
 <body>
 	<div class="pembukaan" id="pembukaan">
-		<h1>Seni Seviyorum <3 </h1>
+		<h1>Merhaba Canım!!! <3 </h1>
 			<button class="tombol" id="tombol">Baş Lütfen</button>
-	</div>
+		</div>
 	<div class="container" id="container">
 		<div class="newpage">
-			<h1 class="judul"> Umarım Bugün Herşey İyi Gelir Sana!!! </h1>
+			<h1 class="judul"> Seni Seviyorum!!! </h1>
 			 <a class="tombol_menu" onclick="klikMenu()"></a>
 			 <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(0)">
 				 <h1 class="judul">Seni Özledim!!!</h1>
 			 <img src="gambar/3.jpg"  class="gambar3">
 				 <p class="untukhari">ben seni çok özledim, umarım bir gün yine buluşalım inşaAllah <br> ama sen hep iyi olmalısın<br> iyi ve mutlu olmanı isterim tamam mı aşkım?<br> sen mutlu olursan bende mutlu olurum!!</p>
-			 	</section>
-			 <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(1)">
-			 	<h1 class="judul">Seni Yerim!!!</h1>
-			 	<br>
-			 	<img src="gambar/1.jpg"  class="gambar1">
-			 	<p class="untukhari">bildiğin gibi, ben senin sevgilin olarak ben çok mutluyum <br> ne kadar mutluluğumu yazmaktan anlatmaz bile </p>
-			 </section>
-				<section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(2)">
+		</section>
+			<section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(1)">
+			 <h1 class="judul">Seni Yerim!!!</h1>
+			 <br>
+			 <img src="gambar/1.jpg"  class="gambar1">
+			 <p class="untukhari">bildiğin gibi, ben senin sevgilin olarak ben çok mutluyum <br> ne kadar mutluluğumu yazmaktan anlatmaz bile </p>
+		</section>
+			<section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(2)">
 			<br><br>
 			<h1 class="judul">Heyyy Feyza Aşar!!!</h1>
-		<br><br><br>
-				<div class="untukhari">
-					<h1><span id="tanggalwaktu"></span></h1>
-					<script>
-					var tw = new Date();
+			<br><br><br>
+		<div class="untukhari">
+			<h1><span id="tanggalwaktu"></span></h1>
+			<script>
+			var tw = new Date();
 			if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
 			else (a=tw.getTime());
 			tw.setTime(a);
@@ -51,34 +51,34 @@
 			document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" <p></p> " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes();
 </script>
 		</div>
-		<br><br>
-    <div class="untukjam">
-    	 <script type="text/javascript">
-          document.write("<center>");
-          var hari = new Date();
-          var jam = hari.getHours();
-          if (jam >= 0 && jam < 12) {
-            document.write(
-              "<h1>Günaydın Aşkım!!</h1><p>Uyandıktan sonra çok mutluyum çünkü günlerim seninle başlarım <3<p>"
-            );
-          } else if (jam == 12) {
-            document.write(
-              "<h1 >Tünaydın Aşkım!!</h1><p>Yemek Ye Unutma Ve Mutlu Ol Canım <3<p>"
-            );
-          } else if (jam >= 12 && jam <= 17) {
-            document.write(
-              "<h1>İyi Akşamlar Aşkım!!</h1><p>Hey Hey nasıl geçti bugün?<br> umarım hep iyi geçer sana ve sen bugün iyi yapmıştın zaten!! <p>"
-            );
-          } else {
-            document.write(
-              "<h1>İyi Geceler Aşkım!!</h1><p>bugün çok şeyler yapmıştın demi?o yüzden uyumalısın bol bol uyu<br>yarın daha iyi gelir sana ben dua ederim. <br><br> İyi Geceler Tatlı Rüyalar<br> Seni Seviyorum Aşkım <3<p>"
-            );
-          }
-          document.write("</center>");
+			<br><br>
+    	<div class="untukjam">
+    	 	<script type="text/javascript">
+          	document.write("<center>");
+          	var hari = new Date();
+          	var jam = hari.getHours();
+          	if (jam >= 0 && jam < 12) {
+            		document.write(
+              	"<h1>Günaydın Aşkım!!</h1><p>Uyandıktan sonra çok mutluyum çünkü günlerim seninle başlarım <3<p>"
+			);
+          		} else if (jam == 12) {
+            	document.write(
+              	"<h1 >Tünaydın Aşkım!!</h1><p>Yemek Ye Unutma Ve Mutlu Ol Canım <3<p>"
+          		);
+          		} else if (jam >= 12 && jam <= 17) {
+            	document.write(
+              	"<h1>İyi Akşamlar Aşkım!!</h1><p>Hey Hey nasıl geçti bugün?<br> umarım hep iyi geçer sana ve sen bugün iyi yapmıştın zaten!! <p>"
+            		);
+          		} else {
+            	document.write(
+              	"<h1>İyi Geceler Aşkım!!</h1><p>bugün çok şeyler yapmıştın demi?o yüzden uyumalısın bol bol uyu<br>yarın daha iyi gelir sana ben dua ederim. <br><br> İyi Geceler Tatlı Rüyalar<br> Seni Seviyorum Aşkım <3<p>"
+           	 );
+          	}
+         	document.write("</center>");
         </script>
         </section>
-      </div>
-    </div>
+      	</div>
+    	</div>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
     integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
