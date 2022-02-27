@@ -71,7 +71,7 @@ body, html {
 
 .newpage {
   text-align: center;
-  background-color: #f1ca89;
+  background-color: #B57EDC;
   width: 100%;
   height: 94%;
   overflow: hidden;
@@ -147,7 +147,7 @@ section.halaman3 {
 }
 
 section.halaman4 {
-  background: #B57EDC
+  background: #f1ca89;
   -webkit-transition-delay: 0.15s;
 }
 
